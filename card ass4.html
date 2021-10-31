@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS</title>
+</head>
+<body>
+  <style>
+    body{
+      background-color:#ffffff ;
+    }
+    * {
+      padding:0;
+      margin:0;
+      box-sizing:border-box;
+      font-family: Metropolis;
+      border:none;
+      outline: none;
+    }
+    .card-container {
+      min-height:500px;
+      background-color:white;
+    }
+    .card-one {
+      max-width: 300px;
+      height: 380px;
+      background-color: #ffffff;
+      position:relative;
+      border-radius:10px;
+    }
+    .banner {
+      border-radius:10px;
+      width:100%;
+    }
+    .card-body{
+      text-align: center;
+      font-weight:bold;
+    }
+    .date{
+      background-color: crimson;
+      color: #ffffff;
+      width: 45px;
+      height: 45px;
+      padding:10px;
+      border-radius: 50%;
+      text-align: center;
+      font-weight: 900;
+      font-size: 0.8rem;
+      position: absolute;
+      right:10px;
+      top:10px;
+      
+    }
+    .travel {
+      font-size:20px;
+      background-color:red;
+      color:white;
+      border-radius:10px;
+      position:relative;
+      width:auto;
+      margin:0px auto;
+      padding:5px;
+      display: block;
+      top:15px;
+      
+    }
+  </style>
+  <div class="card container">
+    <div class="card-one">
+      <div class="date">11<sup>th</sup></div>
+    <img class="banner" src="https://image.shutterstock.com/image-photo/egypt-cairo-giza-general-view-600w-91826000.jpg"/>
+  
+    <div class="card-body">
+      <h2>Pyramid</h2>
+      <div>
+        <small>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsum tempore repudiandae architecto inventore voluptatibus distinctio sint modi commodi minus consequatur, sequi eos rerum, eaque beatae non. Ipsa, iusto cumque.
+        </small>
+      </div>
+    </div>
+     <button class="travel">Visit Paris</button>
+  </div>
+</div>
+</body>
+</html>
